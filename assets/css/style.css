@@ -11252,3 +11252,54 @@ body .width-100per {
 .navyblue {
 	color: #180f48;
 }
+.core-values-section {
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.core-values-section h2 {
+    text-align: center;
+    color: #333;
+}
+
+.core-values-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.core-values-list li {
+    margin-bottom: 20px;
+    padding: 10px;
+    border-left: 4px solid #007BFF;
+    background-color: #e9f5ff;
+}
+
+.core-values-list li p {
+    margin: 0;
+}
+
+/* Media queries for responsiveness */
+@media (max-width: 768px) {
+    .core-values-section {
+        margin: 10px;
+        padding: 15px;
+    }
+    .core-values-list li {
+        margin-bottom: 15px;
+        padding: 8px;
+    }
+}
+
+@media (max-width: 480px) {
+    .core-values-section {
+        margin: 5px;
+        padding: 10px;
+    }
+    .core-values-list li {
+        margin-bottom: 10px;
+        padding: 5px;
+    }
+}
